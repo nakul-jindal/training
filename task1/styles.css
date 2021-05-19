@@ -75,3 +75,12 @@ nav a {
 article {
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+  .grid {
+    display: block;
+  }
+  nav ul {
+    display: block;
+  }
+}
